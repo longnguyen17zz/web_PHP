@@ -1,0 +1,70 @@
+/*Admin page*/
+.navbar_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    color: #fff;
+}
+
+.toast:not(.show) {
+    display: block;
+}
+
+.navbar-brand span,
+.logout-area span {
+    color: #fff;
+}
+
+#admin-header {
+    background: #000 !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.management-detail {
+    padding: 30px 50px;
+}
+
+.admin,
+.admin-area,
+.logout-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.admin {
+    gap: 30px;
+}
+
+.admin a {
+    color: #000;
+}
+
+.management-category {
+    background: #222222;
+    color: #fff;
+    height: 100vh;
+}
+
+.list_category {
+    padding: 0;
+    margin-left: 20px;
+}
+
+.list_category--item {
+    padding-top: 30px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.form-submit {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.active {
+    color: blue;
+}
+
